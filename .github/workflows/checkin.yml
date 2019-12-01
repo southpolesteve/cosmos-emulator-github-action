@@ -7,5 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - uses: ./
+      - name: 'npm ci'
+        run: npm ci
       - name: 'npm run test'
         run: npm run test
