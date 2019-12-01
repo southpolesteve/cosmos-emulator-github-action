@@ -1,0 +1,6 @@
+name: 'Cosmos Emulator'
+description: 'Download and run the Cosmos emulator'
+author: 'Steve Faulkner <southpolesteve@gmail.com>'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

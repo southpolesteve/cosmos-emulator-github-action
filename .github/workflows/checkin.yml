@@ -1,0 +1,11 @@
+name: 'PR Checks'
+on: [pull_request, push]
+
+jobs:
+  check_pr:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: ./
+      - name: 'npm run test'
+        run: npm run test
