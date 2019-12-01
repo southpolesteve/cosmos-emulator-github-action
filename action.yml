@@ -1,6 +1,9 @@
-name: 'Cosmos Emulator'
-description: 'Download and run the Cosmos emulator'
+name: 'Azure Cosmos DB Emulator'
+description: 'Runs the Cosmos DB emulator. Only works on `windows-latest`'
 author: 'Steve Faulkner <southpolesteve@gmail.com>'
 runs:
   using: 'node12'
   main: 'dist/index.js'
+branding:
+  icon: 'database'
+  color: 'blue'
